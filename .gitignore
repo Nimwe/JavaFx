@@ -1,0 +1,5 @@
+# Dossier contenant des fichiers compilés
+target/
+
+# Dossiers  de config de l'ide
+.vscode/
