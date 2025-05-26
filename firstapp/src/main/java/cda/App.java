@@ -9,6 +9,14 @@ import javafx.stage.Stage;
 
 - Comment définir les dimensions de Stage ?
 
+Réponse :
+Il est possible de modifier la taille de la fenêtre en utilisant les méthodes suivantes :
+- stage.setHeight(<taille>); // hauteur
+- stage.setWidth(<taille>); // largeur
+
+Il est également possible de la "maximiser" en utilisant la méthode suivante :
+- stage.setMaximized(true);
+
 */
 
 /**
@@ -21,6 +29,7 @@ public class App extends Application {
 
         // Titre de la fenêtre
         primaryStage.setTitle("First App");
+
 
         // Label affiche du texte (Utiliser les types dont on a besoin suivant projet)
         Label label = new Label("Hello World First App!");

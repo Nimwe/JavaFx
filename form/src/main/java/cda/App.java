@@ -16,6 +16,7 @@ import javafx.stage.Stage;
 
 /**
  * VBox
+ * 👌 code propre, variables bien nommées, good.
  */
 public class App extends Application {
 
