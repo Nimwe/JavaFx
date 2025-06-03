@@ -240,6 +240,12 @@ public class App extends Application {
                 tpCasse.setManaged(selected);
             }
         });
+
+        // TODO lorsque nous changeons la couleur la couleur des caractères et qu'après nous chageons la couleur de fond (plusieurs fois)
+        // la couleur des caractères est réinitialisée à NOIR
+        // Comment faire pour qu'il n'y ait pas de réinitialisation et les caractères gardent leur couleur ?
+        // Indice : la fonction "nvxCss" peut-être elle utilisée ?
+    
         // Changement de couleurs du fond à la selection du bouton radio correspondant
         // Rouge
         rbRouge.setOnAction(new EventHandler<ActionEvent>() {
@@ -315,6 +321,7 @@ public class App extends Application {
         textFieldCopie.setText(updatedCopie);
     }
 
+    // TODO Javadoc pour mieux cerner ce que fait la fonction
     // Changement css
     public String nvxCss() {
 
